@@ -20,7 +20,7 @@ For msys2 32bit build
 
 If you want to rebuild everything from scratch, delete the contents in the "build" directory and start over.
   
-### I hate cmake
+### I hate cmake and use mingw-w64
 
 Stuff it all in a project of your favorite IDE and set the following compiler options
 - fexceptions
@@ -33,3 +33,8 @@ and the following linker options:
 - static
 - static-libgcc 
 - static-libstdc++  
+ 
+# I hate cmake and use Visual Studio
+
+Make sure that your compiler version supports enough C++11 and hope that it works.. I don't test with Visual Studio. But I am very confident, that if problems exist, they are very small and can be fixed fast.
+pragma comment(lib, ...) directives exist.
