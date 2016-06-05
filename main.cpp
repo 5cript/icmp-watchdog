@@ -11,6 +11,9 @@
 #include <iterator>
 #include <thread>
 
+#pragma comment(lib, "ws2_32")
+#pragma comment(lib, "iphlpapi")
+
 using namespace std::literals;
 
 int main()
