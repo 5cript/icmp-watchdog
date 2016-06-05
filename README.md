@@ -34,7 +34,7 @@ and the following linker options:
 - static-libgcc 
 - static-libstdc++  
  
-# I hate cmake and use Visual Studio
+### I hate cmake and use Visual Studio
 
 Make sure that your compiler version supports enough C++11 and hope that it works.. I don't test with Visual Studio. But I am very confident, that if problems exist, they are very small and can be fixed fast.
 pragma comment(lib, ...) directives exist.
