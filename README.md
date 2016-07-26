@@ -6,16 +6,9 @@ this is a small program to scan the network for changes of logged in devices.
 ## Building the program:
 
 ### Using cmake:
-For msys2 64bit build: 
 - mkdir build
 - cd build
-- cmake .. -G"MSYS Makefiles" -DCMAKE_INSTALL_PREFIX=/mingw64/x86_64-w64-mingw64
-- make
-  
-For msys2 32bit build
-- mkdir build
-- cd build
-- cmake .. -G"MSYS Makefiles" -DCMAKE_INSTALL_PREFIX=/mingw64/x86_64-w64-mingw64
+- cmake .. -G"MSYS Makefiles"
 - make
 
 If you want to rebuild everything from scratch, delete the contents in the "build" directory and start over.
